@@ -64,3 +64,14 @@ public class TestResult {
     }
 }
 ```
+## 🧩 Приклад запуску
+
+Вхідні дані:
+```
+Original phrase: Hello, World!
+Shift: 3
+```
+Результат:
+```
+Encrypted phrase: Khoor, Zruog!
+```
