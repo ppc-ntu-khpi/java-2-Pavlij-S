@@ -5,8 +5,11 @@
 public class TestResult {
 
     public static void main(String[] args) {
+        String phrase = "Hello, World!";
+        int shift = 3;
 
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        System.out.println("Original phrase: " + phrase);
+        System.out.println("Shift: " + shift);
+        System.out.println("Encrypted phrase: " + Exercise.Calculate(phrase, shift));
     }
 }
